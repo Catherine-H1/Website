@@ -1,0 +1,57 @@
+.Bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background-color: #E6E2EA;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  z-index: 50;
+}
+
+.AllLinks{
+  display: flex;
+  align-items: center;  
+  justify-content: flex-end;
+}
+
+.NavbarItem {
+  cursor: pointer;
+  height: 150px;
+  padding: 0px 40px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.NavbarItem p {
+  color: #5B3E7A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: black;
+}
+
+.NavbarItem i {
+  font-size: 30px;
+  color: black;
+  margin-left: 15px;
+}
+
+.NavbarItem:hover{
+  background-color: #d9c8ea;
+  color: #6c4c8d;
+  text-decoration-color: #6c4c8d;
+}
+
+.NavbarLogo{
+  margin: 10px;
+  margin-left: 20px;
+  height: 80%;
+  width: auto;
+}
