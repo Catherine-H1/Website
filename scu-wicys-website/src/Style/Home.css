@@ -44,6 +44,10 @@
   margin-top: 35px;
 }
 
+.HeaderText button:hover{
+  background-color: #38d9de;
+}
+
 .headerImg{
   width: 100%;
   height: auto;
