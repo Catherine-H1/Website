@@ -1,12 +1,9 @@
 // import { useParams } from 'react-router-dom';
 import NavBar from './Components/Navbar'
+import StayUpdated from './Components/StayUpdated'
 import './Style/Home.css';
 
 import headerImg from './Assets/home img.jpeg'
-import slack from './Assets/social_media_icon/slack.png'
-import insta from './Assets/social_media_icon/insta.png'
-import linkedin from './Assets/social_media_icon/linkedin.png'
-import gmail from './Assets/social_media_icon/gmail.png'
 
 function AboutUsBlock({ heading, description }) {
   return(
@@ -38,23 +35,7 @@ function App() {
           <AboutUsBlock heading="WiCyS SCU Chapter" description="To advance our mission, we host informative workshops, networking opportunities, information sessions, socials, project workshops, guest speakers, and more!"></AboutUsBlock>
         </div>
       </div>
-      <div className="StayUpdated">
-        <p>Stay Updated</p>
-        <div>
-          <a href="https://www.instagram.com/wicys_scu/" target="_blank">
-            <img src={insta} alt="Insta" />
-          </a>
-          <a href="https://join.slack.com/t/scuwicys/shared_invite/zt-2x67pqixi-OKGIa3789B2HmZ0qQcqkyw" target="_blank"> {/* NOTE: slack invite expires in 30 days */}
-            <img src={slack} alt="Slack" />
-          </a>
-          <a href="mailto:scuwicys@gmail.com"> {/* TODO: update w/ SCU email */}
-            <img src={gmail} alt="Gmail" />
-          </a>
-          <a href="https://www.linkedin.com/company/scu-wicys/" target="_blank">
-            <img src={linkedin} alt="LinkedIn" />
-          </a>
-        </div>
-      </div>
+      <StayUpdated></StayUpdated>
     </div>
   );
 }
