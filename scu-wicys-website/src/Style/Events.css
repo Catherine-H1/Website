@@ -1,0 +1,90 @@
+.Events{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.UpcomingEvents{
+  margin: 0px 0px 50px 0px;
+  text-align: center;
+  border-bottom: 10px solid #E6E2EA;
+  position: relative; 
+  overflow: hidden;
+}
+
+.UpcomingEvents h1{
+  color: #5B3E7A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: #5B3E7A;
+  margin-top: 50px;
+}
+
+.Circle1{
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(59, 39, 81, .2);
+  position: absolute; 
+  top: 35%;
+  left: 25%; 
+}
+
+.Circle2{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(59, 39, 81, .12);
+  position: absolute; 
+  top: 59%;
+  left: 20%; 
+}
+
+.Circle3{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(64, 249, 255, 0.15);
+  position: absolute; 
+  top: 59%;
+  left: 5%; 
+}
+
+.Circle4{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(64, 249, 255, 0.15);
+  position: absolute; 
+  bottom: 59%;
+  left: 62%; 
+}
+
+.Circle6{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(59, 39, 81, .12);
+  position: absolute; 
+  bottom: 60%;
+  left: 72%; 
+}
+
+.Circle5{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(59, 39, 81, .12);
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.UpcomingEventsImg{
+  width: 40%;
+  height: auto;
+  margin-bottom: 50px;
+}
