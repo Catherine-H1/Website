@@ -29,7 +29,8 @@
   background-color: rgba(59, 39, 81, .2);
   position: absolute; 
   top: 35%;
-  left: 25%; 
+  left: 50%; 
+  transform: translateX(-750px);
 }
 
 .Circle2{
@@ -39,7 +40,8 @@
   background-color: rgba(59, 39, 81, .12);
   position: absolute; 
   top: 59%;
-  left: 20%; 
+  left: 50%; 
+  transform: translateX(-900px);
 }
 
 .Circle3{
@@ -49,7 +51,8 @@
   background-color: rgba(64, 249, 255, 0.15);
   position: absolute; 
   top: 59%;
-  left: 5%; 
+  left: 50%; 
+  transform: translateX(-1350px);
 }
 
 .Circle4{
@@ -59,7 +62,8 @@
   background-color: rgba(64, 249, 255, 0.15);
   position: absolute; 
   bottom: 59%;
-  left: 62%; 
+  left: 50%; 
+  transform: translateX(350px); 
 }
 
 .Circle6{
@@ -69,7 +73,8 @@
   background-color: rgba(59, 39, 81, .12);
   position: absolute; 
   bottom: 60%;
-  left: 72%; 
+  left: 50%; 
+  transform: translateX(750px); 
 }
 
 .Circle5{

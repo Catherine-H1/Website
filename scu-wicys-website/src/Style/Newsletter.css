@@ -25,3 +25,25 @@
   font-family: 'Inter', sans-serif;
   font-size: 40px;
 }
+
+.NewsletterBlurb{
+  padding: 0px 50px;
+}
+
+.GoogleForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .NewsletterBlurb{
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+
+  .GoogleForm iframe{
+    width: 85%;
+  }
+}
