@@ -7,7 +7,7 @@ import gmail from '../Assets/social_media_icon/gmail.png'
 const StayUpdated = () => {
   return <div className="StayUpdated">
     <p>Stay Updated</p>
-    <div>
+    <div className="StayUpdatedImgContainer">
       <a href="https://www.instagram.com/wicys_scu/" target="_blank">
         <img src={insta} alt="Insta" />
       </a>

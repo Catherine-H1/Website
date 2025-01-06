@@ -18,3 +18,24 @@
   height: 100px;
   padding: 20px;
 }
+
+.StayUpdatedImgContainer{
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .StayUpdated{
+    gap: 5px;
+    height: 130px;
+  }
+  .StayUpdated p{
+    font-size: 20px;
+  }
+  .StayUpdated img{
+    width: 45px;
+    height: auto;
+    padding: 10px;
+  }
+}

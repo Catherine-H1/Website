@@ -54,16 +54,38 @@
 }
 
 /* handle smaller screen sizes --> TODO: fix */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1750px) {
   .Header{
-    grid-template-columns: 100%; 
+    grid-template-columns: 100%;  
   }
+  .Header div{
+    min-height: 800px;
+  }
+
   .HeaderText h1{
     margin-top: 30px;
-    font-size: 40px;
+    font-size: clamp(40px, 8vw, 100px);
   }
   .HeaderText p{
-    font-size: 12px;
+    font-size: clamp(12px, 4vw, 35px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Header div{
+    min-height: 500px;
+  }
+
+  .HeaderText button{
+    background-color: #40F9FF;
+    color: #5B3E7A;
+    padding: 15px 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    margin-top: 35px;
   }
 }
 
@@ -125,4 +147,19 @@
   color: #676488;
   font-family: 'Inter', sans-serif;
   font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .AboutUsBlock {
+    width: 250px;
+    height: 400px;
+    padding: 0px 20px;
+  }
+
+  .AboutUsBlock h1{
+    font-size: 30px;
+  }
+  .AboutUsBlock p{
+    font-size: 20px;
+  }
 }
