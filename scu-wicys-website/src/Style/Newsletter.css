@@ -1,0 +1,27 @@
+.Newsletter{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.NewsletterHeading{
+  margin: 200px 0px 50px 0px;
+  text-align: center;
+  border-bottom: 10px solid #E6E2EA;
+}
+
+.NewsletterHeading h1{
+  color: #5B3E7A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: #5B3E7A;
+  margin-top: 0px;
+}
+
+.Newsletter{
+  color: #5B3E7A;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+}

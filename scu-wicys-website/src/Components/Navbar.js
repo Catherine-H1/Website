@@ -10,7 +10,7 @@ const NavBar = () => {
       <a href="/" className="NavbarItem"><p>About</p> <i class="fas fa-chevron-down"></i> </a> 
       <a href="/events" className="NavbarItem"><p>Events</p> <i class="fas fa-chevron-down"></i></a>
       <a href="/board" className="NavbarItem"><p>Board</p> <i class="fas fa-chevron-down"></i></a>
-      <a href="/" className="NavbarItem"><p>Newsletter</p> <i class="fas fa-chevron-down"></i></a>
+      <a href="/newsletter" className="NavbarItem"><p>Newsletter</p> <i class="fas fa-chevron-down"></i></a>
     </div>
   </div>;
 }

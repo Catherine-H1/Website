@@ -4,6 +4,7 @@ import './index.css';
 import Home from './App';
 import Board from './Board'
 import Events from './Events'
+import Newsletter from './Newsletter';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/board" element={<Board />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/newsletter" element={<Newsletter />} />
         </Routes>
       </div>
     </Router>
