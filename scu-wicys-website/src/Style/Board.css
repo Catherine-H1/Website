@@ -8,6 +8,12 @@
   border-bottom: 10px solid #E6E2EA;
 }
 
+@media screen and (max-width: 500px) {
+  .MeetTheBoard, .Board{
+    margin-top: 100px;
+  }
+}
+
 .MeetTheBoard h1{
   color: var(--dark-purple);;
   font-family: 'Inter', sans-serif;
@@ -84,4 +90,27 @@
   width: 50%; 
   min-height: 1300px; 
   margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .MeetTheBoard h1{
+    padding: 0px 20px;
+    font-size: 40px;
+  }
+
+  .BackgroundCircle1, .BackgroundCircle2, .BackgroundCircle3{
+    display: none;
+  }
+  .BoardMember h2{
+    font-size: 25px;
+  }
+  .BoardMember p{
+    font-size: 18px;
+  }
+  .BoardMember img{
+    width: 150px;
+  }
+  .BoardMember{
+    margin-bottom: 20px;
+  }
 }

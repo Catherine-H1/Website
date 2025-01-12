@@ -15,10 +15,18 @@
 .App{
   margin-top: 150px;
 }
+
+@media screen and (max-width: 500px) {
+  .App{
+    margin-top: 75px;
+  }
+}
+
 .Header{
   display: grid;
   grid-template-columns: 1fr 1100px;
   gap: 0px;
+  grid-template-areas: "HeaderText headerImg";
 }
 
 .HeaderText{
@@ -164,16 +172,26 @@
 }
 
 @media screen and (max-width: 500px) {
+  .AboutUs{
+    margin-top: 30px;
+  }
+  .AboutUs h1{
+    font-size: 50px;
+  }
+  .AboutUsInfo{
+    gap: 40px;
+  }
+
   .AboutUsBlock {
-    width: 250px;
-    height: 400px;
+    width: 225px;
+    height: 275px;
     padding: 0px 20px;
   }
 
   .AboutUsBlock h1{
-    font-size: 30px;
+    font-size: 25px;
   }
   .AboutUsBlock p{
-    font-size: 20px;
+    font-size: 15px;
   }
 }

@@ -9,6 +9,12 @@
   border-bottom: 10px solid #E6E2EA;
 }
 
+@media screen and (max-width: 500px) {
+  .Newsletter, .NewsletterHeading{
+    margin-top: 100px;
+  }
+}
+
 .NewsletterHeading h1{
   color: var(--dark-purple);
   font-family: 'Inter', sans-serif;
@@ -45,5 +51,9 @@
 
   .GoogleForm iframe{
     width: 85%;
+  }
+
+  .NewsletterHeading h1{
+    font-size: 40px;
   }
 }
