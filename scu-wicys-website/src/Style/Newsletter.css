@@ -10,7 +10,7 @@
 }
 
 .NewsletterHeading h1{
-  color: #5B3E7A;
+  color: var(--dark-purple);
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 70px;

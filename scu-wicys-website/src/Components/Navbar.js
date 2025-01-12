@@ -1,5 +1,5 @@
 import '../Style/Navbar.css';
-import logo from '../Assets/WiCyS Logo.png';
+import logo from '../Assets/wicys logo.png';
 
 const NavBar = () => {
   return <div className="Bar">

@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   height: 150px;
-  background-color: #E6E2EA;
+  background-color: var(--pastel-purple);
   display: flex;
   align-items: center;  
   justify-content: space-between;
@@ -50,9 +50,9 @@
 }
 
 .NavbarLogo{
-  margin: 10px;
+  margin: 20px;
   margin-left: 20px;
-  height: 80%;
+  height: 70%;
   width: auto;
 }
 
