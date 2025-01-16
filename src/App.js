@@ -22,9 +22,9 @@ function Home() {
         <div className="HeaderText">
           <h1>Women in <br/> Cybersecurity <br/> at SCU</h1>
           <p>#SCUWiCyS #WomenInCyberSecurity</p>
-          <button onClick={() => (window.location.href = '/events')}>Upcoming Events</button>
+          <button onClick={() => (window.location.href = '/Website/events')}>Upcoming Events</button>
         </div>
-        <img className="headerImg" src={headerImg} alt="image" /> {/* TODO: make anchor or add onclick? */}
+        <img className="headerImg" src={headerImg} alt="image" />
       </div>
       <div className="DividerDiv"></div>
       <div className="AboutUs">

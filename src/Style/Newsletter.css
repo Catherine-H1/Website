@@ -1,10 +1,10 @@
 .Newsletter{
-  margin-top: 150px;
+  margin-top: 75px;
   text-align: center;
 }
 
 .NewsletterHeading{
-  margin: 200px 0px 50px 0px;
+  margin: 125px 0px 50px 0px;
   text-align: center;
   border-bottom: 10px solid #E6E2EA;
 }
@@ -19,7 +19,7 @@
   color: var(--dark-purple);
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 50px;
   text-decoration: underline;
   text-underline-offset: 12px;
   text-decoration-color: #5B3E7A;
@@ -29,7 +29,7 @@
 .Newsletter{
   color: #5B3E7A;
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .NewsletterBlurb{

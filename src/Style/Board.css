@@ -1,9 +1,9 @@
 .Board{
-  margin-top: 150px;
+  margin-top: 75px;
 }
 
 .MeetTheBoard{
-  margin: 200px 0px 50px 0px;
+  margin: 125px 0px 50px 0px;
   text-align: center;
   border-bottom: 10px solid #E6E2EA;
 }
@@ -18,7 +18,7 @@
   color: var(--dark-purple);;
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 50px;
   text-decoration: underline;
   text-underline-offset: 12px;
   text-decoration-color: #5B3E7A;
@@ -29,8 +29,8 @@
   position: absolute;
   top: 500px;
   left: 50%;
-  width: 900px; 
-  height: 900px; 
+  width: 600px; 
+  height: 600px; 
   background-color: #D9D9D9;
   border-radius: 50%;
   transform: translate(-50%, 0);
@@ -40,9 +40,9 @@
 .BackgroundCircle2{
   position: absolute;
   top: 350px;
-  left: -650px;
-  width: 900px; 
-  height: 900px; 
+  left: -250px;
+  width: 500px; 
+  height: 500px; 
   background-color: rgba(64, 249, 255, 0.13);
   border-radius: 50%;
   z-index: -1; 
@@ -51,9 +51,9 @@
 .BackgroundCircle3{
   position: absolute;
   top: 400px;
-  right: -250px;
-  width: 400px; 
-  height: 400px; 
+  right: -100px;
+  width: 300px; 
+  height: 300px; 
   background-color: rgba(64, 249, 255, 0.13);
   border-radius: 50%;
   z-index: -1; 
@@ -61,21 +61,21 @@
 
 .BoardMember{
   text-align: center;
-  width: 350px;
+  width: 250px;
 }
 
 .BoardMember img{
-  width: 225px;
+  width: 175px;
   height: auto;
 }
 .BoardMember h2{
   color: #5B3E7A;
-  font-size: 35px;
+  font-size: 25px;
   margin: 10px;
 }
 .BoardMember p{
   color: #5B3E7A;
-  font-size: 27px;
+  font-size: 20px;
   margin: 10px;
   font-style: italic;
   font-weight: bold;
@@ -87,12 +87,13 @@
   justify-content: center; 
   align-items: center;
   gap: 0px; 
-  width: 50%; 
-  min-height: 1300px; 
+  width: 75%; 
+  min-height: 1000px; 
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .MeetTheBoard h1{
     padding: 0px 20px;
     font-size: 40px;
@@ -112,5 +113,10 @@
   }
   .BoardMember{
     margin-bottom: 20px;
+  }
+  .AllBoardMembers{
+    min-height: 100px; 
+    gap: 10px;
+
   }
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Website/static/css/main.dfe26161.css",
-    "main.js": "/Website/static/js/main.c4976ebf.js",
+    "main.js": "/Website/static/js/main.0351f76f.js",
     "static/js/488.651906d1.chunk.js": "/Website/static/js/488.651906d1.chunk.js",
     "static/media/Winter2024 Events.png": "/Website/static/media/Winter2024 Events.8526cbad7bb9c2c365d9.png",
     "static/media/Prableen.png": "/Website/static/media/Prableen.57e9217d79e6910dbe06.png",
@@ -20,11 +20,11 @@
     "static/media/linkedin.png": "/Website/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/Website/index.html",
     "main.dfe26161.css.map": "/Website/static/css/main.dfe26161.css.map",
-    "main.c4976ebf.js.map": "/Website/static/js/main.c4976ebf.js.map",
+    "main.0351f76f.js.map": "/Website/static/js/main.0351f76f.js.map",
     "488.651906d1.chunk.js.map": "/Website/static/js/488.651906d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfe26161.css",
-    "static/js/main.c4976ebf.js"
+    "static/js/main.0351f76f.js"
   ]
 }

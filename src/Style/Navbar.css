@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 150px;
+  height: 75px;
   background-color: var(--pastel-purple);
   display: flex;
   align-items: center;  
@@ -19,8 +19,8 @@
 
 .NavbarItem {
   cursor: pointer;
-  height: 150px;
-  padding: 0px 40px;
+  height: 75px;
+  padding: 0px 20px;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -31,16 +31,16 @@
   color: #5B3E7A;
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 20px;
   text-decoration: underline;
-  text-underline-offset: 12px;
+  text-underline-offset: 8px;
   text-decoration-color: black;
 }
 
 .NavbarItem i {
-  font-size: 30px;
+  font-size: 18px;
   color: black;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .NavbarItem:hover{
@@ -50,7 +50,7 @@
 }
 
 .NavbarLogo{
-  margin: 20px;
+  margin: 10px;
   margin-left: 20px;
   height: 70%;
   width: auto;

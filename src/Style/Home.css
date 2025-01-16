@@ -13,7 +13,7 @@
 }
 
 .App{
-  margin-top: 150px;
+  margin-top: 75px;
 }
 
 @media screen and (max-width: 500px) {
@@ -24,7 +24,7 @@
 
 .Header{
   display: grid;
-  grid-template-columns: 1fr 1100px;
+  grid-template-columns: 1fr 500px;
   gap: 0px;
   grid-template-areas: "HeaderText headerImg";
 }
@@ -41,7 +41,7 @@
 .HeaderText h1{
   color: var(--dark-purple);
   font-family: 'Inter', sans-serif;
-  font-size: 100px;
+  font-size: 50px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -51,15 +51,15 @@
   color: var(--purple);
   font-family: 'Inter', sans-serif;
   margin-top: 30px;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 .HeaderText button{
   background-color: var(--teal);
   color: #5B3E7A;
-  padding: 25px 35px;
+  padding: 15px 20px;
   font-family: 'Inter', sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   border-radius: 15px;
   border: none;
   font-weight: bold;
@@ -76,26 +76,26 @@
 }
 
 /* handle smaller screen sizes --> TODO: fix */
-@media screen and (max-width: 1750px) {
+@media screen and (max-width: 900px) {
   .Header{
     grid-template-columns: 100%;  
   }
   .Header div{
-    min-height: 800px;
+    min-height: 600px;
   }
 
   .HeaderText h1{
     margin-top: 30px;
-    font-size: clamp(40px, 8vw, 100px);
+    font-size: clamp(20px, 8vw, 60px);
   }
   .HeaderText p{
-    font-size: clamp(12px, 4vw, 35px);
+    font-size: clamp(6px, 3vw, 30px);
   }
 }
 
 @media screen and (max-width: 500px) {
   .Header div{
-    min-height: 500px;
+    min-height: 400px;
   }
 
   .HeaderText button{
@@ -114,11 +114,11 @@
 .DividerDiv{
   background-color: var(--muted-purple);
   width: 100%;
-  height: 100px
+  height: 75px
 }
 
 .AboutUs{
-  margin: 100px 0px;
+  margin: 50px 0px;
   text-align: center;
 }
 
@@ -126,7 +126,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 50px;
   flex-wrap: wrap; 
 }
 
@@ -134,7 +134,7 @@
   color: var(--dark-purple);
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 50px;
   text-decoration: underline;
   text-underline-offset: 12px;
   text-decoration-color: var(--dark-purple);
@@ -142,14 +142,14 @@
 }
 
 .AboutUsBlock{
-  width: 450px;
-  height: 586px;
+  width: 250px;
+  height: 425px;
   background-color: var(--grayish-purple);
   border-color: var(--magenta);
-  border-width: 8px;
+  border-width: 6px;
   border-style: solid;
   border-radius: 50px;
-  padding: 0px 60px;
+  padding: 0px 40px;
 
   display: flex;
   flex-direction: column;
@@ -160,7 +160,7 @@
 .AboutUsBlock h1{
   color: var(--dark-purple);
   text-decoration: none;
-  font-size: 50px;
+  font-size: 32px;
   font-family: 'Inter', sans-serif;
   margin: 0;
 }
@@ -168,7 +168,7 @@
 .AboutUsBlock p{
   color: #676488;
   font-family: 'Inter', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -186,6 +186,7 @@
     width: 225px;
     height: 275px;
     padding: 0px 20px;
+    border-width: 5px;
   }
 
   .AboutUsBlock h1{

@@ -11,6 +11,7 @@ import KaraImg from './Assets/board_headshot/Kara.png'
 import PrableenImg from './Assets/board_headshot/Prableen.png'
 import RidhanyaImg from './Assets/board_headshot/Ridhanya.png'
 import TiffanyImg from './Assets/board_headshot/Tiffany.png'
+import JasleenImg from './Assets/board_headshot/Jasleen.png'
 
 function BoardMember( {name, position, image} ){
   return(
@@ -43,7 +44,7 @@ function Board() {
         <BoardMember name="Prableen Kakar" position="Events Coordinator" image={PrableenImg}></BoardMember>
         <BoardMember name="Seerat Kakar" position="Project Manager" image={shieldImg}></BoardMember>
         <BoardMember name="Jessica Tuso" position="Underclassman Rep" image={JessicaImg}></BoardMember>
-        <BoardMember name="Jasleen Kaur" position="Faculty Advisor" image={shieldImg}></BoardMember>
+        <BoardMember name="Jasleen Kaur" position="Faculty Advisor" image={JasleenImg}></BoardMember>
       </div>
       <StayUpdated></StayUpdated>
     </div>
