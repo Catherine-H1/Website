@@ -6,11 +6,11 @@ import Board from './Board'
 import Events from './Events'
 import Newsletter from './Newsletter';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter basename="/Website">
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/newsletter" element={<Newsletter />} />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 
