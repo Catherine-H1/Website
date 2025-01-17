@@ -6,20 +6,18 @@ import Board from './Board'
 import Events from './Events'
 import Newsletter from './Newsletter';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Website">
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/board" element={<Board />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/newsletter" element={<Newsletter />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/board" element={<Board />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/newsletter" element={<Newsletter />} />
+      </Routes>
+    </HashRouter>
   );
 };
 

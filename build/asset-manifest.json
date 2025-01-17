@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.dfe26161.css",
-    "main.js": "/Website/static/js/main.0351f76f.js",
+    "main.css": "/Website/static/css/main.01c89226.css",
+    "main.js": "/Website/static/js/main.cccf33d9.js",
     "static/js/488.651906d1.chunk.js": "/Website/static/js/488.651906d1.chunk.js",
     "static/media/Winter2024 Events.png": "/Website/static/media/Winter2024 Events.8526cbad7bb9c2c365d9.png",
     "static/media/Prableen.png": "/Website/static/media/Prableen.57e9217d79e6910dbe06.png",
+    "static/media/Jasleen.png": "/Website/static/media/Jasleen.edfcf3ad2f363777daa5.png",
     "static/media/Kara.png": "/Website/static/media/Kara.a5aaae632edc43bef6f4.png",
     "static/media/Izzy.png": "/Website/static/media/Izzy.2f806fe3644afb367639.png",
     "static/media/Ridhanya.png": "/Website/static/media/Ridhanya.3fe50485b955a52a9976.png",
@@ -19,12 +20,12 @@
     "static/media/gmail.png": "/Website/static/media/gmail.8e5dbb45361037541cd7.png",
     "static/media/linkedin.png": "/Website/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/Website/index.html",
-    "main.dfe26161.css.map": "/Website/static/css/main.dfe26161.css.map",
-    "main.0351f76f.js.map": "/Website/static/js/main.0351f76f.js.map",
+    "main.01c89226.css.map": "/Website/static/css/main.01c89226.css.map",
+    "main.cccf33d9.js.map": "/Website/static/js/main.cccf33d9.js.map",
     "488.651906d1.chunk.js.map": "/Website/static/js/488.651906d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfe26161.css",
-    "static/js/main.0351f76f.js"
+    "static/css/main.01c89226.css",
+    "static/js/main.cccf33d9.js"
   ]
 }

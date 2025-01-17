@@ -1,4 +1,5 @@
 // import { useParams } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import NavBar from './Components/Navbar'
 import StayUpdated from './Components/StayUpdated'
 import './Style/Home.css';
@@ -22,7 +23,11 @@ function Home() {
         <div className="HeaderText">
           <h1>Women in <br/> Cybersecurity <br/> at SCU</h1>
           <p>#SCUWiCyS #WomenInCyberSecurity</p>
-          <button onClick={() => (window.location.href = '/Website/events')}>Upcoming Events</button>
+          <button>
+            <Link to="/events" style={{ textDecoration: "none", color: "inherit" }}>
+              Upcoming Events
+            </Link>
+          </button>
         </div>
         <img className="headerImg" src={headerImg} alt="image" />
       </div>
