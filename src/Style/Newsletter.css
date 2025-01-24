@@ -32,6 +32,38 @@
   font-size: 25px;
 }
 
+.NewsletterBlock{
+  width: 60%;
+  max-width: 600px;
+  background-color: var(--grayish-purple);
+  border-color: var(--magenta);
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 50px;
+  padding: 0px 40px;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 30px 15px;
+}
+
+.NewsletterBlock button{
+  background-color: rgb(241, 183, 253);
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(93, 7, 114);
+  border-color: rgb(124, 9, 153);
+  border-style: solid;
+  border-width: 3px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.NewsletterBlock button:hover{
+  background-color: rgb(214, 156, 228);
+}
+
 .NewsletterBlurb{
   padding: 0px 50px;
 }
