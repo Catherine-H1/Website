@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.01c89226.css",
-    "main.js": "/Website/static/js/main.cccf33d9.js",
+    "main.css": "/Website/static/css/main.b3553c34.css",
+    "main.js": "/Website/static/js/main.9e050f8d.js",
     "static/js/488.651906d1.chunk.js": "/Website/static/js/488.651906d1.chunk.js",
     "static/media/Winter2024 Events.png": "/Website/static/media/Winter2024 Events.8526cbad7bb9c2c365d9.png",
     "static/media/Prableen.png": "/Website/static/media/Prableen.57e9217d79e6910dbe06.png",
@@ -20,12 +20,12 @@
     "static/media/gmail.png": "/Website/static/media/gmail.8e5dbb45361037541cd7.png",
     "static/media/linkedin.png": "/Website/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/Website/index.html",
-    "main.01c89226.css.map": "/Website/static/css/main.01c89226.css.map",
-    "main.cccf33d9.js.map": "/Website/static/js/main.cccf33d9.js.map",
+    "main.b3553c34.css.map": "/Website/static/css/main.b3553c34.css.map",
+    "main.9e050f8d.js.map": "/Website/static/js/main.9e050f8d.js.map",
     "488.651906d1.chunk.js.map": "/Website/static/js/488.651906d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c89226.css",
-    "static/js/main.cccf33d9.js"
+    "static/css/main.b3553c34.css",
+    "static/js/main.9e050f8d.js"
   ]
 }
