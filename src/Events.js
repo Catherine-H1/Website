@@ -1,7 +1,8 @@
 import NavBar from './Components/Navbar'
 import StayUpdated from './Components/StayUpdated'
 import './Style/Events.css';
-import events from './Assets/Winter2024 Events.png'
+import Winter2024Events from './Assets/Winter2024 Events.png'
+import Spring2025Events from './Assets/Spring2025 Events.png'
 
 function Events() {
   return (
@@ -17,7 +18,9 @@ function Events() {
           <div className="Circle5"></div> 
         </div>
       </div>
-      <img src={events} alt="events" className="UpcomingEventsImg"></img>
+      <img src={Spring2025Events} alt="events" className="UpcomingEventsImg"></img>
+      {/* <h1> Past Events </h1>
+      <img src={Winter2024Events} alt="events" className="UpcomingEventsImg"></img> */}
       <StayUpdated></StayUpdated>
     </div>
   );
