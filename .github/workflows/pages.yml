@@ -25,10 +25,8 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies cleanly
-        run: |
-          rm -rf node_modules package-lock.json
-          npm ci
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
 
       - name: Build React app
         run: npm run build
